@@ -1,0 +1,55 @@
+*{margin:0;padding:0;}
+ul,li{list-style: none;}
+html,body{font-size: 12px; font-family: "微软雅黑",arial;}
+img{border: none;}
+a{color: #000; text-decoration: none;}
+#warp{margin-left: auto;margin-right: auto;width: 100%; height: auto;}
+#nav{height: 79px; background: url(../img/menu_bg.gif) no-repeat; width: 1200px; left: 50%; position: fixed; top:0; margin-left: -600px; z-index: 1000;}
+.nav-wrap{padding-left: 246px; height: 79px; position: relative; left: 0; top: 0;}
+.nav-wrap li{ float:left; width: 123px;border-right: 1px solid #e4e4e4; text-align: center; line-height: 79px;font-size: 18px; font-weight: bold;}
+.nav-wrap li a{width: 100%; height: 100%; display: inline-block;}
+.nav-wrap li a:hover{background: url(../img/nav-bg.gif) no-repeat; color: #fff; }
+
+
+#max-box{margin: 0 auto;}
+/*第一页*/
+#home{background: url(../img/home_bg.jpg) no-repeat; width: 100%; height:1100px;position: relative;/*overflow: hidden;*/margin: 0 auto; padding:0;}
+.handImg{height: 1100px; width: 100%; background: url(../img/handImg.png)no-repeat fixed center bottom; position: absolute; z-index: 202; padding: 0; top: 0;}
+.textImg{width: 100%; height: 1100px; position: absolute; z-index: 200; background: url(../img/textImg.png)no-repeat fixed center bottom transparent;}
+.penImg{width: 100%; height: 1100px; z-index: 202; position: absolute; top:0; background: url(../img/penImg.png)no-repeat scroll center 417px;}
+
+/*第二页*/
+#about{width: 100%; height: 1100px; position: relative;overflow: hidden;margin: 0 auto; background: url(../img/about_bg.jpg)no-repeat fixed center;z-index: 207;}
+.contents{
+	position: relative;top:200px;z-index: 202; left: 50%; margin-left: -600px; overflow: hidden;
+	width: 100%;height: 1100px; background: url(../img/about_img.png) 350px 0px  no-repeat;
+}
+.aboutRound{
+	position: absolute; width: 439px; height: 439px;  left: 350px;
+}
+.about_info{padding-top:170px; color: #fff; text-align: center;}
+.about_info span{display: block; line-height: 30px;}
+.about_info span.about_more{padding-top: 25px;}
+.balloon{background: url(../img/about_sprite_frei.png)no-repeat fixed center 50px transparent; height: 1100px; padding:0; position: absolute;top:0;width: 100%; z-index: 200;}
+.compasses{width:100%;height: 1100px; padding:0; background: url(../img/about_frei.png)no-repeat fixed center bottom transparent; position: absolute;top:0; z-index: 201;}
+
+/*第三页*/
+#new{width:100%; height: 1100px; position: relative;margin: 0 auto; background:url(../img/news_bg.jpg)no-repeat fixed center bottom transparent;overflow: hidden; padding:0; }
+.contents_list,.pro_img{
+	width: 1200px; position: absolute; top:200px;margin-left: -600px;left: 50%; height: 700px; overflow: hidden;
+}
+#left_news{}
+/*第四页*/
+#project{width:100%; height: 1100px; position: relative;margin: 0 auto; background:url(../img/projekt_bg.jpg)no-repeat fixed center bottom transparent;overflow: hidden; padding:0; }
+.bulb1{background:url(../img/pro_sprite_frei.png)no-repeat fixed center 435px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 200;}
+.bulb2{background:url(../img/pro_frei.png)no-repeat fixed center 28px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 201;}
+
+#sector{width:100%; height: 1100px; position: relative;margin: 0 auto; background:url(../img/sector_bg.jpg)no-repeat fixed center bottom transparent;overflow: hidden; padding:0;}
+.pop{
+	background:url(../img/sector_frei.png)no-repeat fixed center 300px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 201;
+}
+.clock{
+	background:url(../img/sector_sprite_frei.png)no-repeat fixed center 435px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 200;
+}
+#tree{width:100%; height: 1100px; position: relative;margin: 0 auto; background:url(../img/famous_bg.jpg)no-repeat fixed center bottom transparent;overflow: hidden; padding:0;}
+.house{background:url(../img/famous_sprite_frei.png) no-repeat fixed center 411px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 200;}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+			}
+			.new_img{ margin-top:20px ;}
+			#new {
+				width: 800px;
+				height: 650px;
+				overflow: hidden;
+			}
+			
+			#nav {
+				margin-left: 122px;
+				width: 678px;
+				height: 32px;
+				border-bottom: #8e0d35 1px solid;
+				line-height: 32px;
+			}
+			
+			#nav li {
+				width: 120px;
+				height: 32px;
+				float: left;
+				background: #9b9b9b;
+				margin-right: 1px;
+				display: inline;
+				text-align: center;
+			}
+			
+			#nav li a {
+				color: #000;
+				text-decoration: none;
+				display: block;
+				height: 32px;
+				width: 120px;
+			}
+			#conter{
+				overflow: hidden;
+			}
+			.ul-list {
+				width: 800px;
+				height: 628px;
+				display: none;
+				
+			}
+			
+			.ul-list li {
+				height: 51px;
+				border-bottom: 1px dashed #92b3ac;
+				position: relative;
+				overflow: hidden;
+				line-height: 51px;
+			}
+			
+			.ul-list li>div a {
+				float: right;
+				color: #000;
+				font-weight: bold;
+				font-size: 12px;
+				height: 51px;
+				width: 683px;
+				text-indent: 14px;
+				display: block;
+			}
+			
+			.ul-list li div {
+				height: 51px;
+				width: 800px;
+				position: absolute;
+			}
+			
+			
+			.ul-list li div span {
+				float: left;
+				height: 51px;
+				line-height: 47px;
+				width: 117px;
+				background: url(img/newsbg.png)no-repeat 5px 9px;
+				text-indent: 30px;
+				font-size: 8px;
+			}
+			
+			#nav li.active {
+				background: url(img/newsbg2.gif) repeat-x;
+			}
+			
+			#nav li.active a {
+				color: #FFF
+			}
+		</style>
+		<script src="js/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<img src="img/news_img.png" width="269px" height="90px" class="new_img">
+		<div id="new">
+			<ul id="nav">
+				<li class="active">
+					<a href="#">行业资讯</a>
+				</li>
+				<li>
+					<a href="#">新闻动态</a>
+				</li>
+				<li>
+					<a href="#">焦点关注</a>
+				</li>
+			</ul>
+			<div id="conter">
+				<ul class="ul-list" style="display: block;">
+					<li>
+						<div>
+							<span>2016-10-5</span>
+							<a href="javascript:;">React，我从未见过如此好看的教程</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-4-25</span>
+							<a href="javascript:;">javascript 十六进制与RGB颜色值的相互转换</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-9-3</span>
+							<a href="javascript:;">如何用js使得一个已经结束的css3的animation动画重新执行一遍</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-8-19</span>
+							<a href="javascript:;">在 React.js 中使用 ES6+ - MockingBird</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-4-25</span>
+							<a href="javascript:;">webpack CommonsChunkPlugin详细</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="ul-list">
+					<li>
+						<div>
+							<span>2016-5-18</span>
+							<a href="javascript:;">Redux源码阅读（一）</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-2-12</span>
+							<a href="javascript:;">打造 TypeScript 的 Visual Studio Code 开发环境 </a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-6-23</span>
+							<a href="javascript:;">Vue.js 2.0 和 React、Augular等其他框架的全方位对比</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-5-14</span>
+							<a href="javascript:;">position属性absolute与relative 详解</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-10-5</span>
+							<a href="javascript:;">循环给li绑定事件实现 点击li弹出其索引值 和内容</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="ul-list">
+					<li>
+						<div>
+							<span>2016-5-14</span>
+							<a href="javascript:;">bootstrap弹出框提示框无法调用</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-3-12</span>
+							<a href="javascript:;">nodejs配置简单HTTP服务器</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-5-7</span>
+							<a href="javascript:;">JavaScript 中一些概念理解 ：clientX、clientY、offsetX、offsetY、screenX、screenY</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-10-15</span>
+							<a href="javascript:;">再谈JavaScript闭包及应用</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<span>2016-5-5</span>
+							<a href="javascript:;">鼠标HOVER时区块动画旋转变色的CSS3样式掩码</a>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</body>
+	<script src="js/jq_scroll.js" type="text/javascript" charset="utf-8"></script>
+	<script charset="UTF-8" type="text/javascript">
+		$(function() {
+//			$("#conter").Scroll({
+//				line: 1,
+//				speed: 500,
+//				timer: 3000,
+//				up: "but_up",
+//				down: "but_down"
+//			});
+			$("#nav li").click(function(){
+				var index=$(this).index();
+				$(this).addClass("active").siblings().removeClass("active").parent().next().children(".ul-list").eq(index).show().siblings().hide();
+			})
+		})
+	</script>
+
+</html>
