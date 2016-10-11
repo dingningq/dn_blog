@@ -16,9 +16,8 @@
 					<li><a href="#about">About</a></li>
 					<li><a href="#new">News</a></li>
 					<li><a href="#project">wroks</a></li>
-					<li><a href="#sector">Photo</a></li>
-					<li><a href="#tree">hof</a></li>
-					<li><a href="javascript:;">contact</a></li>
+					<!--<li><a href="#sector">Photo</a></li>-->
+					<li><a href="#tree">contact</a></li>
 				</ul>
 			</div>
 			<div id="max-box">
@@ -58,17 +57,45 @@
 					<div class="bulb1" style="background-position: 90% 0px;"></div>
 					<div class="bulb2" style="background-position: 20% 0px;"></div>
 				</div>
-				<div id="sector" style="background-position: 50% 0px;">
+				<!--<div id="sector" style="background-position: 50% 0px;">
 					<div class="contents_list">
 						
 					</div>
 					<div class="pop" style="background-position: 90% 0px;"></div>
 					<div class="clock" style="background-position: 20% 0px;"></div>
-				</div>
+				</div>-->
 				<div id="tree" style="background-position: 50% 0px;">
-					<div class="contents_list"></div>
+					<div class="contents_list" style="top:300px">
+						<div>
+							<img src="img/famous_img.png" alt="" />
+						</div>
+						<div class="treeCont">
+							<span class="treeLeft">
+								不是每一个理想，都有机会实现，但每一个机会，都应当做理想去实现。      
+							</span>
+							<span class="name">——伍刚</span>
+							<img src="img/name.gif" width="130px" height="85px" class="name_img"/>
+						</div>
+						
+					</div>
 					<div class="house" style="background-position: 90% 0px;"></div>
 				</div>
+			</div>
+			<div id="footer">
+				<div class="book"></div>
+				<div class="footer_img">
+				</div>
+				<div class="footer_txt">
+					<h3>联系方式</h3>
+					<p>地址：北京市顺义区</p>
+					<p>电话：15810554921</p>
+					<p>
+						邮箱：dingningq@163.com
+					</p>
+					<p><a href="#">个人简历</a></p>
+					
+				</div>
+				
 			</div>
 		</div>
 	</body>
@@ -80,7 +107,7 @@
 				ball_up=$(document).scrollTop()-2200,
 				bulb1=$(document).scrollTop()-3300,
 				pop1=$(document).scrollTop()-4400,
-				house=$(document).scrollTop()-5500;
+				house=$(document).scrollTop()-4400;
 				var com_up=$(document).scrollTop()-1100;
 				if($('.handImg')){
 					$('.handImg').css({"backgroundPosition":"50% "+hand_up+"px"});

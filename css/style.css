@@ -4,7 +4,7 @@ html,body{font-size: 12px; font-family: "微软雅黑",arial;}
 img{border: none;}
 a{color: #000; text-decoration: none;}
 #warp{margin-left: auto;margin-right: auto;width: 100%; height: auto;}
-#nav{height: 79px; background: url(../img/menu_bg.gif) no-repeat; width: 1200px; left: 50%; position: fixed; top:0; margin-left: -600px; z-index: 1000;}
+#nav{height: 79px; background: url(../img/logo.jpg) no-repeat; width: 1200px; left: 50%; position: fixed; top:0; margin-left: -600px; z-index: 1000;}
 .nav-wrap{padding-left: 246px; height: 79px; position: relative; left: 0; top: 0;}
 .nav-wrap li{ float:left; width: 123px;border-right: 1px solid #e4e4e4; text-align: center; line-height: 79px;font-size: 18px; font-weight: bold;}
 .nav-wrap li a{width: 100%; height: 100%; display: inline-block;}
@@ -36,7 +36,7 @@ a{color: #000; text-decoration: none;}
 /*第三页*/
 #new{width:100%; height: 1100px; position: relative;margin: 0 auto; background:url(../img/news_bg.jpg)no-repeat fixed center bottom transparent;overflow: hidden; padding:0; }
 .contents_list,.pro_img{
-	width: 1200px; position: absolute; top:200px;margin-left: -600px;left: 50%; height: 700px; overflow: hidden;
+	width: 1200px; position: absolute; top:200px;margin-left: -600px;left: 50%; height: 700px; overflow: hidden;z-index: 203;
 }
 #left_news{}
 /*第四页*/
@@ -51,5 +51,19 @@ a{color: #000; text-decoration: none;}
 .clock{
 	background:url(../img/sector_sprite_frei.png)no-repeat fixed center 435px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 200;
 }
+/*第五页*/
+
 #tree{width:100%; height: 1100px; position: relative;margin: 0 auto; background:url(../img/famous_bg.jpg)no-repeat fixed center bottom transparent;overflow: hidden; padding:0;}
+.treeLeft{font-size: 16px; display: inline-block; width: 350px; line-height: 35px; margin-top: 20px;}
+.name{font-size: 16px; display: block; margin-left: 260px; }
+.name_img{ padding-left: 350px; margin-top: -80px;display: block;}
 .house{background:url(../img/famous_sprite_frei.png) no-repeat fixed center 411px transparent;width:100%; height: 1100px; position:absolute;top:0;z-index: 200;}
+#footer{width:100%; height: 1100px; position: relative; background: url(../img/technik_bg.jpg) no-repeat top center; width: 100%; height: 850px; }
+.footer_img{
+	width: 596px; height: 310px; position: absolute; top:200px; left:150px; background: url(../img/technik_frei.png) no-repeat  transparent;
+}
+.book{background: url(../img/technik_sprite_frei.png) no-repeat fixed 100px bottom; width: 1200px; height: 792px; }
+.footer_txt{position: absolute;left: 780px; top: 200px; }
+.footer_txt h3{color:#8E0D35; font-size: 16px; line-height: 35px;}
+.footer_txt p{line-height: 30px;}
+.footer_txt p a{padding:0px 20px; background: #8E0D35; color: #fff; margin-top: 10px; display: inline-block;}
