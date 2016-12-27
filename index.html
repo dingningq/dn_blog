@@ -31,10 +31,13 @@
 						<div class="aboutRound">
 							<div class="about_info">
 								<span>丁宁</span>
-								<span>女|28岁|1988年11月10日</span> 
-								<span>对研究Html5+CSS3+JavaScript有浓厚兴趣，精通Html+CSS<br/>熟练JavaScript|了解gulp.js自动化构建工具和angular.js知识+node相关知道 
-<br/>熟练浏览器兼容性调试、熟悉bootstrap等各种前端技术<br />熟悉使用ajax进行异步请求操作...... </span>
-								<span class="about_more">更多详细+</span>
+								<span>女&nbsp;|&nbsp;大专&nbsp;|&nbsp;1988年11月10日</span>
+								<span>对研究Html5+CSS3+JavaScript有浓厚兴趣，精通Html,CSS,JavaScript，<br/>bootstrap等前端技术，熟练分析解决各浏览器PC端的兼容性调试工作，<br/>熟悉使用ajax进行异步请求操作</span>
+								<span>熟悉使用jquery、zepto等类库,及常用一些插件</span>
+								<span>熟悉react,angular等MV*的思想，可以组件化开发</span>
+								<span>熟练应用Gulp和WebPack完成编译打包工作</span>
+								<span>对后台开发的node.js有所了解</span>
+
 							</div>
 						</div>
 					</div>
@@ -125,6 +128,11 @@
 				}
 				if($('.house')){
 					$('.house').css({"backgroundPosition":"90% "+house+"px"})
+				}
+				if(com_up>=-500&&com_up<=500){
+					$(".about_info").addClass("bounceIn");
+				}else{
+					$(".about_info").removeClass("bounceIn");
 				}
 			})
 		})
